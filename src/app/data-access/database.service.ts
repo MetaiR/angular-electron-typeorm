@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Connection, ConnectionOptions, createConnection } from 'typeorm';
-import { Settings } from './repositories/settings';
 import { Person } from './entities/person';
 
 @Injectable()
@@ -10,7 +9,6 @@ export class DatabaseService {
     private readonly options: ConnectionOptions;
 
     constructor() {
-        Settings.initialize();
         this.options = {
             type: 'mariadb',
             host: 'localhost',

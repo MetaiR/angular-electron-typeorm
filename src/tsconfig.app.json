@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../out-tsc/app",
     "module": "es2015",
-    "types": [],
+    "types": ["node"],
     "paths": {
       "typeorm": ["../node_modules/typeorm/typeorm-model-shim.js"]
     }
