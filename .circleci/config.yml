@@ -8,7 +8,7 @@ jobs:
     - checkout
     - run: npm install
     - save_cache:
-        key: npm-cache-{{ checksum ".circleci/config.yml" }}
+        key: npm-cache-{{ checksum "package.json" }}
         paths:
           - ~/npm-cahce
   build_linux:
@@ -18,8 +18,7 @@ jobs:
     steps:
     - checkout
     - restore_cache:
-        keys:
-          - npm-cache-{{ checksum ".circleci/config.yml" }}
+        key: npm-cache-{{ checksum "package.json" }}
     - run: npm run electron:linux
     - store_artifacts:
         path: app-builds
@@ -31,8 +30,7 @@ jobs:
     steps:
     - checkout
     - restore_cache:
-        keys:
-          - npm-cache-{{ checksum ".circleci/config.yml" }}
+        key: npm-cache-{{ checksum "package.json" }}
     - run: npm run electron:windows
     - store_artifacts:
         path: app-builds
