@@ -1,15 +1,53 @@
 version: 2
 jobs:
-  build:
-    working_directory: ~/angular-7-electron-orm
+  install:
+    working_directory: ~/angular-7-electron-orm-npm
     docker:
-      - image: electronuserland/builder:latest
+    - image: node:lts-alpine
     steps:
-      - checkout
-      - run: npm install
-      - run: npm run electron:linux
-      # - run: npm run electron:windows
-      # - run: npm run electron:mac
-      - store_artifacts:
-          path: app-builds
-          destination: builds
+    - run: npm install
+    - save_cache:
+        key: npm-cache
+        paths:
+          - ~/npm-cahce
+  build_linux:
+    working_directory: ~/angular-7-electron-orm-linux
+    docker:
+    - image: electronuserland/builder:latest
+    steps:
+    - checkout
+    - restore_cache:
+        keys:
+          - npm-cache
+    - run: npm run electron:linux
+    - store_artifacts:
+        path: app-builds
+        destination: builds-linux
+  build_windows:
+    working_directory: ~/angular-7-electron-orm-windows
+    docker:
+    - image: electronuserland/builder:wine-mono
+    steps:
+    - checkout
+    - restore_cache:
+        keys:
+          - npm-cache
+    - run: npm run electron:windows
+    - store_artifacts:
+        path: app-builds
+        destination: builds-windows
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - install
+    - hold:
+        type: approval
+        requires: 
+          - install
+    - build_linux:
+        requires: 
+          - hold
+    - build_windows:
+        requires: 
+          - hold
