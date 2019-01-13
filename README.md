@@ -8,13 +8,10 @@
   <br>
 </div>
 
-[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
+[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org) 
 
 
 [![CircleCI](https://circleci.com/gh/MetaiR/angular-7-electron-typeorm.svg?style=svg&circle-token=07b963f1c9946dedaf27d88dabfecfd4686e5c05)](https://circleci.com/gh/MetaiR/angular-7-electron-typeorm)[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
-
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
 
 # Quickstart
 ``` bash
@@ -24,7 +21,7 @@ npm start
 ```
 
 # Introduction
-This repository is based on [!CubikNeRubik/angular-electron-typeorm-starter](https://github.com/CubikNeRubik/angular-electron-typeorm-starter) thanks for his greate job
+This repository is based on [CubikNeRubik/angular-electron-typeorm-starter](https://github.com/CubikNeRubik/angular-electron-typeorm-starter) thanks for his greate job
 
 This is a start kit for easy launch of Electron, Angular 7 and TypeORM.
 
@@ -90,7 +87,3 @@ You can desactivate "Developer Tools" by commenting `win.webContents.openDevTool
 1. **Browser mode.** You can't use TypeORM in browser so it is not possible.If you need to run app in browser and don't need TypeORM you can use [angular-electron](https://github.com/maximegris/angular-electron) for that.
 1. **Windows Build.** You cannot make build for `windows` if path to project folder contains spaces or not latin letters.
  
-[github-watch-badge]: https://img.shields.io/github/watchers/CubikNeRubik/angular-electron-typeorm-starter.svg?style=social
-[github-watch]: https://github.com/CubikNeRubik/angular-electron-typeorm-starter/watchers
-[github-star-badge]: https://img.shields.io/github/stars/CubikNeRubik/angular-electron-typeorm-starter.svg?style=social
-[github-star]: https://github.com/CubikNeRubik/angular-electron-typeorm-starter/stargazers
