@@ -4,10 +4,11 @@ jobs:
     docker:
       - image: node:lts-alpine
     steps:
+      - checkout
       - run: npm install
       - run: npm run electron:linux
       - run: npm run electron:windows
       - run: npm run electron:mac
       - store_artifacts:
-          path: /app-builds
+          path: app-builds
           destination: builds
