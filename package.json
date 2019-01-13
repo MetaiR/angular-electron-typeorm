@@ -48,7 +48,7 @@
     "@angular/router": "^7.2.0",
     "@types/node": "^10.12.18",
     "angular-cli-builders": "^2.1.2",
-    "codelyzer": "~4.2.1",
+    "codelyzer": "~4.5.0",
     "commonjs": "0.0.1",
     "copy-webpack-plugin": "^4.6.0",
     "core-js": "^2.6.2",
