@@ -1,5 +1,5 @@
 {
-  "name": "loan-project",
+  "name": "angular-electron-typeorm-project",
   "version": "1.0.0",
   "main": "main.js",
   "author": {
@@ -21,9 +21,7 @@
     "ng:serve:web": "npm run postinstall:web && npm run electron:tsc  && ng serve -o",
     "postinstall": "npm run postinstall:electron && npx electron-builder install-app-deps",
     "postinstall:web": "node postinstall-web",
-    "postinstall:electron": "node postinstall",
-    "build-prod": "ng build --prod --build-optimizer --aot --base-href ./",
-    "electron-build": "npm run build-prod && electron-packager . loan-build --all"
+    "postinstall:electron": "node postinstall"
   },
   "private": true,
   "dependencies": {

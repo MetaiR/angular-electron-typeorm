@@ -3,8 +3,7 @@ import { DatabaseService } from './data-access/database.service';
 import { Person } from './data-access/entities/person';
 
 @Component({
-    // tslint:disable-next-line:component-selector
-    selector: 'app-root',
+    selector: 'rp-app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
