@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/angular-7-electron-orm
     docker:
       - image: node:lts-alpine
     steps:
