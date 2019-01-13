@@ -1,7 +1,8 @@
-import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, BaseEntity, OneToOne } from 'typeorm';
+import { User } from './user';
 
 @Entity({ name: 'person' })
-export class Person {
+export class Person extends BaseEntity {
     @PrimaryGeneratedColumn({ name: 'person_id' })
     private _id: number = undefined;
     @Column({ name: 'person_national_id' })
@@ -26,6 +27,10 @@ export class Person {
     private _workAddress: string = undefined;
     @Column({ name: 'person_work_phonenum' })
     private _workPhone: string = undefined;
+
+    // extra
+    @OneToOne(type => User, user => user.person, {lazy: true})
+    private _user: User = undefined;
 
     public get id(): number {
         return this._id;
@@ -144,6 +149,22 @@ export class Person {
 
     public set workPhone(value: string) {
         this._workPhone = value;
+    }
+
+    /**
+     * Getter user
+     * @return {User }
+     */
+    public get user(): User {
+        return this._user;
+    }
+
+    /**
+     * Setter user
+     * @param {User } value
+     */
+    public set user(value: User) {
+        this._user = value;
     }
 
 }
