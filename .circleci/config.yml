@@ -9,5 +9,5 @@ jobs:
       - run: npm run electron:windows
       - run: npm run electron:mac
       - store_artifacts:
-        path: /app-builds
-        destination: builds
+          path: /app-builds
+          destination: builds
