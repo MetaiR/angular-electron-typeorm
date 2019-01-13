@@ -5,6 +5,7 @@ jobs:
     docker:
     - image: node:lts-alpine
     steps:
+    - checkout
     - run: npm install
     - save_cache:
         key: npm-cache-{{ checksum ".circleci/config.yml" }}
