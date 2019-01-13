@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/angular-7-electron-orm
     docker:
-      - image: node:lts-alpine
+      - image: electronuserland/builder:latest
     steps:
       - checkout
       - run: npm install
