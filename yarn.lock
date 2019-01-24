@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/7zip-bin/-/7zip-bin-4.1.0.tgz#33eff662a5c39c0c2061170cc003c5120743fff0"
   integrity sha512-AsnBZN3a8/JcNt+KPkGGODaA4c7l3W5+WpeKgGSbstSLxqWtTXqd1ieJGBQ8IFCtRg8DmmKUcSkIkUc0A4p3YA==
 
-"@angular-devkit/architect@0.12.3", "@angular-devkit/architect@^0.12.2":
+"@angular-devkit/architect@0.12.3", "@angular-devkit/architect@^0.12.3":
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.12.3.tgz#93671d6cf47a3d75104753a4e4eac4cc81a4d39d"
   integrity sha512-nRZkuQkUMW0HS/YbVjsEA5zPMgsL4Icd0nFV2gM9vAK5X+Vzn9gZyCL1ogkOsJNlEP6Rc/Pc6Q1PPO2p5NxPsQ==
