@@ -10,8 +10,9 @@
 
 [![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org) 
 
+[![CircleCI](https://circleci.com/gh/MetaiR/angular-electron-typeorm.svg?style=svg&circle-token=07b963f1c9946dedaf27d88dabfecfd4686e5c05)](https://circleci.com/gh/MetaiR/angular-electron-typeorm)
 
-[![CircleCI](https://circleci.com/gh/MetaiR/angular-7-electron-typeorm.svg?style=svg&circle-token=07b963f1c9946dedaf27d88dabfecfd4686e5c05)](https://circleci.com/gh/MetaiR/angular-7-electron-typeorm)[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
+[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE.md)
 
 # Quickstart
 ``` bash
