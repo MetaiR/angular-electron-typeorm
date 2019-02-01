@@ -14,9 +14,9 @@ export class DatabaseService {
             type: 'mariadb',
             host: 'localhost',
             port: 3306,
-            username: 'admin',
-            password: '12514110',
-            database: 'loan',
+            username: 'root',
+            password: 'some_pass',
+            database: 'some_db',
             entities: [
                 Person,
                 User
