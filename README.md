@@ -21,16 +21,16 @@ npm start
 ```
 
 # Introduction
-This repository is based on [CubikNeRubik/angular-electron-typeorm-starter](https://github.com/CubikNeRubik/angular-electron-typeorm-starter) thanks for his greate job
+This repository is based on [CubikNeRubik/angular-electron-typeorm-starter](https://github.com/CubikNeRubik/angular-electron-typeorm-starter) thanks for his greate job. I just try to keep it up to date
 
 This is a start kit for easy launch of Electron, Angular 7 and TypeORM.
 
 Currently runs with:
 
-- Angular v7.2.0
+- Angular v7.2.3
 - Electron v4.0.1
-- Electron Builder v20.38.4
-- TypeORM v0.2.11
+- Electron Builder v20.38.5
+- TypeORM v0.2.12
 - Mysql2 v1.6.4
 
 With this start kit, you can :
