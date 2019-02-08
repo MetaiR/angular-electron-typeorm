@@ -25,7 +25,7 @@
   },
   "private": true,
   "dependencies": {
-    "mysql2": "^1.6.4",
+    "mysql2": "^1.6.5",
     "tslib": "^1.9.0",
     "typeorm": "^0.2.12"
   },
