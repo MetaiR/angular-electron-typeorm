@@ -15,7 +15,7 @@
     "@angular-devkit/core" "7.3.1"
     rxjs "6.3.3"
 
-"@angular-devkit/architect@0.13.3", "@angular-devkit/architect@^0.13.2":
+"@angular-devkit/architect@0.13.3", "@angular-devkit/architect@^0.13.3":
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.13.3.tgz#28813279c546cdcb709ad55038bb2051736de668"
   integrity sha512-89VL75bq3+h3m0jhzWNqXqW+HQcrihnM3i6eiUE6P81LcllP159JMlusAvB1LHLNc6Cc62wTq4BJr7KDILkPOA==
