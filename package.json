@@ -51,7 +51,7 @@
     "commonjs": "0.0.1",
     "copy-webpack-plugin": "^4.6.0",
     "core-js": "^2.6.5",
-    "electron": "^4.0.5",
+    "electron": "^4.0.6",
     "electron-builder": "^20.38.5",
     "electron-packager": "^13.1.0",
     "electron-reload": "^1.4.0",
