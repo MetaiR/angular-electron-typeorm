@@ -27,7 +27,7 @@
   "dependencies": {
     "mysql2": "^1.6.5",
     "tslib": "^1.9.0",
-    "typeorm": "^0.2.14"
+    "typeorm": "^0.2.15"
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.13.4",
