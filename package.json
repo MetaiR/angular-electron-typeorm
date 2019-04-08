@@ -50,7 +50,7 @@
     "codelyzer": "~5.0.0",
     "commonjs": "0.0.1",
     "copy-webpack-plugin": "^5.0.2",
-    "core-js": "^2.6.5",
+    "core-js": "^3.0.1",
     "electron": "^4.1.4",
     "electron-builder": "^20.40.2",
     "electron-packager": "^13.1.1",
