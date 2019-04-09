@@ -45,7 +45,7 @@
     "@angular/platform-browser": "^7.2.12",
     "@angular/platform-browser-dynamic": "^7.2.12",
     "@angular/router": "^7.2.12",
-    "@types/node": "^11.13.0",
+    "@types/node": "^11.13.2",
     "angular-cli-builders": "^2.1.2",
     "codelyzer": "~5.0.0",
     "commonjs": "0.0.1",
