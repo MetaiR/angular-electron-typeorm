@@ -32,7 +32,7 @@ Currently runs with:
 - TypeORM
 - Mysql2
 
-(for checking the versions, please check `package.json` file)
+(for versions, please check `package.json` file)
 
 With this start kit, you can :
 
