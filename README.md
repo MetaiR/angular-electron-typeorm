@@ -26,11 +26,13 @@ This is a start kit for easy launch of Electron, Angular 7 and TypeORM.
 
 Currently runs with:
 
-- Angular v7.2.3
-- Electron v4.0.1
-- Electron Builder v20.38.5
-- TypeORM v0.2.12
-- Mysql2 v1.6.4
+- Angular
+- Electron
+- Electron Builder
+- TypeORM
+- Mysql2
+
+(for checking the versions, please check `package.json` file)
 
 With this start kit, you can :
 
